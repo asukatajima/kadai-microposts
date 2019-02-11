@@ -6,8 +6,8 @@
             @include('usres.card', ['user' => $user])
         </aside>
         <div class="col-sm-8">
-            @include('usres.navtabs', ['user' => $user])
-            @include('users.users', ['users' => $users])
+           @include('usres.navtabs', ['user' => $user])
+          @include('microposts.microposts', ['microposts' => $microposts])
         </div>
     </div>
 @endsection
